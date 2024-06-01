@@ -1,0 +1,31 @@
+header {
+  background-color: black;
+  padding: 56px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 56px;
+  flex-wrap: wrap;
+  img {
+    width: 300px;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 72px;
+    li {
+      text-decoration: none;
+    }
+  }
+}
+li :hover {
+  border: solid 2px;
+  border-radius: 24px;
+  padding: 8px 12px;
+}
+li {
+  text-decoration: none;
+}

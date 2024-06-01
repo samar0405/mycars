@@ -1,0 +1,9 @@
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 56px;
+  color: #fff;
+  flex-wrap: wrap;
+  padding: 36px 36px;
+}
